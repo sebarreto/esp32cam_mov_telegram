@@ -53,11 +53,39 @@ It's not mandatory. It's recommended.
 3. MicroPython scripts.
 
    Download cam_config.py and take_photo.py. Save both scripts into ESP32-CAM with Thonny IDE.
-   (https://imgbox.com/ftol3MFN) 
+   ![Thonny files](https://images2.imgbox.com/21/dd/ftol3MFN_o.png)
+
+4. Change Wi-Fi credential (ssid, password). Use your own credentials.
    
+## Server
 
+1. Download server.py. Open it with Visual Studio IDE.
+   Install Python. Instruccions here: (https://www.python.org/downloads/)
+   Install required libraries. Instructions here: (https://packaging.python.org/en/latest/tutorials/installing-packages/)
+   
+2. Execute server.py. I used port 5000. You can use another port.
+   ![Python flask server](https://images2.imgbox.com/cc/d3/QLDXBqCn_o.png)
+   
+3. Edit URL field(take_photo.py) with Thonny. Put IP address provided by Flask Server.
 
-Check: ![Official webpage MicroPython](https://micropython.org/)
+## Telegram
+
+1. Create a bot with botfhater. Check here: (https://core.telegram.org/bots/tutorial) or here: (https://www.directual.com/lesson-library/how-to-create-a-telegram-bot)
+   Save your TOKEN.
+   
+2. Download script telegram_sending_test.py use it to identify your bot CHAT-ID. (just step 1 is required).
+   
+3. Edit server.py to put your CHAT-ID.
+
+## Execute from Thonny.
+
+1. Save scripts into ESP32-CAM (cam_config.py and take_photo.py).
+   
+2. Keep Flask server running.
+
+A lot of improvements could be done. For instance, you can practice and try to send pictures directly from ESP32-CAM to telegram.
+
+**Check:** (https://micropython.org/)
 
 **Special thanks:**
 - https://www.youtube.com/watch?v=ukWvHX-JTgI&list=WL&index=36
