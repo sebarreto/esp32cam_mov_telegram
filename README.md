@@ -3,11 +3,11 @@ Movement detection using PIR sensor + ESP32CAM and sending images by Telegram.
 
 ## Hardware requirements
 
-| Item| Quantity|
-
-| ----- | ---- |
-
-| ESP32-CAM | 1 |
-| PIR Sensor HC-SR501 | 1 |
-| Wires | 4 to 6 |
-| Protoboard | 1 |
+**ESP32-CAM** 
+I used ESP32-S2-WROOM board. Model FNK0085. Brand Freenove.
+https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2023/01/Freenove-ESP32.png?w=300&quality=100&strip=all&ssl=1
+Documentation: http://freenove.com/fnk0085
+official store: https://store.freenove.com/
+**PIR Sensor HC-SR501**
+**Wires**
+**Protoboard**
