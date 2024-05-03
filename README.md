@@ -1,6 +1,9 @@
 # MicroPython - esp32cam_mov_telegram
 Movement detection using PIR sensor + ESP32CAM and sending images by Telegram.
 
+![General Architecture](https://images2.imgbox.com/cf/43/xoCqTr0S_o.png)
+
+
 ## Hardware requirements
 
 **ESP32-CAM**
